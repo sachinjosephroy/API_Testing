@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11210" started-at="2018-08-21T22:02:10Z" finished-at="2018-08-21T22:02:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11210" started-at="2018-08-21T22:02:10Z" finished-at="2018-08-21T22:02:22Z">
+      <class name="com.weatherApp.qa.restAssured.SimpleGetTest">
+        <test-method status="PASS" signature="getWeatherDetailsTest()[pri:1, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getWeatherDetailsTest" duration-ms="3630" started-at="2018-08-21T22:02:10Z" finished-at="2018-08-21T22:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetailsTest -->
+        <test-method status="PASS" signature="getValidStatusCodeTest()[pri:2, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getValidStatusCodeTest" duration-ms="509" started-at="2018-08-21T22:02:14Z" finished-at="2018-08-21T22:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidStatusCodeTest -->
+        <test-method status="PASS" signature="getInvalidStatusCodeTest()[pri:3, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getInvalidStatusCodeTest" duration-ms="491" started-at="2018-08-21T22:02:15Z" finished-at="2018-08-21T22:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInvalidStatusCodeTest -->
+        <test-method status="PASS" signature="getWeatherStatusLineTest()[pri:4, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getWeatherStatusLineTest" duration-ms="495" started-at="2018-08-21T22:02:15Z" finished-at="2018-08-21T22:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherStatusLineTest -->
+        <test-method status="PASS" signature="iteratingOverHeadersTest()[pri:5, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="iteratingOverHeadersTest" duration-ms="552" started-at="2018-08-21T22:02:16Z" finished-at="2018-08-21T22:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteratingOverHeadersTest -->
+        <test-method status="PASS" signature="getWeatherHeadersTest()[pri:6, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getWeatherHeadersTest" duration-ms="549" started-at="2018-08-21T22:02:16Z" finished-at="2018-08-21T22:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherHeadersTest -->
+        <test-method status="PASS" signature="getWeatherMessageBodyTest()[pri:7, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getWeatherMessageBodyTest" duration-ms="501" started-at="2018-08-21T22:02:17Z" finished-at="2018-08-21T22:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherMessageBodyTest -->
+        <test-method status="PASS" signature="getWeatherMessageBodyTest2()[pri:8, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getWeatherMessageBodyTest2" duration-ms="482" started-at="2018-08-21T22:02:17Z" finished-at="2018-08-21T22:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWeatherMessageBodyTest2 -->
+        <test-method status="PASS" signature="stringContainedInResponseBodyTest()[pri:9, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="stringContainedInResponseBodyTest" duration-ms="456" started-at="2018-08-21T22:02:18Z" finished-at="2018-08-21T22:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringContainedInResponseBodyTest -->
+        <test-method status="PASS" signature="stringPresenceIgnoringCasingTest()[pri:10, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="stringPresenceIgnoringCasingTest" duration-ms="501" started-at="2018-08-21T22:02:18Z" finished-at="2018-08-21T22:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stringPresenceIgnoringCasingTest -->
+        <test-method status="PASS" signature="verifyCityInJsonResponseTest()[pri:11, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="verifyCityInJsonResponseTest" duration-ms="1301" started-at="2018-08-21T22:02:19Z" finished-at="2018-08-21T22:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityInJsonResponseTest -->
+        <test-method status="PASS" signature="displayAllNodesInWeatherAPI()[pri:12, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="displayAllNodesInWeatherAPI" duration-ms="739" started-at="2018-08-21T22:02:20Z" finished-at="2018-08-21T22:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAllNodesInWeatherAPI -->
+        <test-method status="PASS" signature="RegistrationSuccessful()[pri:13, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="RegistrationSuccessful" duration-ms="448" started-at="2018-08-21T22:02:21Z" finished-at="2018-08-21T22:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationSuccessful -->
+        <test-method status="PASS" signature="getInsteadOfPostTest()[pri:14, instance:com.weatherApp.qa.restAssured.SimpleGetTest@482f8f11]" name="getInsteadOfPostTest" duration-ms="426" started-at="2018-08-21T22:02:21Z" finished-at="2018-08-21T22:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInsteadOfPostTest -->
+      </class> <!-- com.weatherApp.qa.restAssured.SimpleGetTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
